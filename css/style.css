@@ -1,0 +1,311 @@
+body {
+	min-width: 700px;
+	margin: 0;
+	padding: 0px;
+}
+
+/*Nav*/
+#logo a img {
+	float: left;
+	margin-left: 2.5em;
+	margin-top: .5em;
+}
+
+#navigation {
+	min-height: 100%;
+	min-width: 100%;
+    display: block;
+}
+
+#navigation ul li {
+	list-style: none;
+	display: inline;
+	padding-right: 1.5em;
+	font-family: "Goudy Old Style Bold", Goudy Old Style, sans-serif;
+	font-size: 20px;
+	margin-top: 1.2em;
+    float: left;
+}
+
+/*unvisited*/
+#navigation ul li a:link {
+    color: #000;
+    text-decoration: none;
+}
+
+/*visited*/
+#navigation ul li a:visited {
+    color: #000;
+    text-decoration: none;
+}
+
+/*active*/
+#navigation ul li a:active {
+    color: #C0C0C0;
+    text-decoration: none;
+}
+
+.hamburger-icon {
+    display: none;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    z-index: 30;
+}
+
+.mobile-navigation {
+    display: none;
+}
+
+/*Nav*/
+
+/*Portfolio*/
+#portfolio {
+	margin-top: 6.5em;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0em;
+}
+
+#portfolio div {
+	float: left;
+	width: 400px;
+	height: 550px;
+	margin: 1.2em;
+	background-color: #a3a3a3;
+	padding: 1.8em;
+}
+
+#portfolio div h2 {
+	font-family: "Goudy Old Style Bold", Goudy Old Style, sans-serif;
+	font-size: 20px;
+	text-align: center;
+}
+
+#portfolio div p {
+	font-family: "Goudy Old Style Bold", Goudy Old Style, sans-serif;
+	font-size: 20px;
+	text-align: center;
+}
+/*Portfolio*/
+
+
+/*Bio*/
+#bio {
+	background-color: #FFF;
+	margin-top: 5em;
+}
+
+#bio h1{
+	width: 740px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: .5em;
+	padding-bottom: 1em;
+	font-family: "Goudy Old Style Bold", Goudy Old Style, sans-serif;
+	font-size: 40px;
+	font-weight: 500;
+    text-align: center;
+}
+
+#bio p {
+	text-align: left;
+	width:740px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "Goudy Old Style Bold", Goudy Old Style, sans-serif;
+	font-size: 27px;
+	padding-bottom: 1em;
+}
+#bio p a:link {
+    color: #828282;
+    text-decoration: none;
+}
+
+/*visited*/
+#bio p a:visited {
+    color: #828282;
+    text-decoration: none;
+}
+/*bio*/
+
+/*Profile*/
+#profile {
+	margin-top: 1em;
+	text-align: center;
+    display: inline-block;
+    padding: auto;
+
+}
+/*profile*/
+/*Grid*/
+#photo {
+	margin-top: 3em;
+    margin-bottom: 1em;
+	text-align: center;
+    display: inline-block;
+    padding: auto;
+
+}
+/*grid*/
+
+/*Contact*/
+#contact {
+	margin-top: 5em;
+	background-color: #FFF;
+}
+
+#contact p {
+	text-align: center;
+	width:740px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "Goudy Old Style Bold", Goudy Old Style, sans-serif;
+	font-size: 27px;
+	padding-bottom: 4em;
+	padding-top: 4em
+}
+
+/*unvisited*/
+#contact p a:link {
+    color: #828282;
+    text-decoration: none;
+}
+
+/*visited*/
+#contact p a:visited {
+    color: #828282;
+    text-decoration: none;
+}
+
+/*hover*/
+#contact p a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+/*active*/
+#contact p a:active {
+    color: #000;
+    text-decoration: none;
+}
+/*contact*/
+
+
+
+
+/*Contact f*/
+#contactfooter {
+	background-color: #FFF;
+	margin-top: 2.5em;
+
+}
+
+#contactfooter h1{
+	width: 740px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 2em;
+	padding-bottom: 1em;
+	font-family: "Goudy Old Style Bold", Goudy Old Style, sans-serif;
+	font-size: 40px;
+	font-weight: 300;
+	text-align: center;
+}
+
+#contactfooter p {
+	text-align: center;
+	width:740px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "Goudy Old Style Bold", Goudy Old Style, sans-serif;
+	font-size: 27px;
+	font-weight: 100;
+	padding-bottom: 2em;
+}
+
+/*unvisited*/
+#contactfooter p a:link {
+    color: #000;
+    text-decoration: none;
+}
+
+/*visited*/
+#contactfooter p a:visited {
+    color: #000;
+    text-decoration: none;
+}
+
+/*hover*/
+#contactfooter p a:hover {
+    color: #C0C0C0;
+    text-decoration: none;
+}
+
+/*active*/
+#contactfooter p a:active {
+    color: #C0C0C0;
+    text-decoration: none;
+}
+/*contact f*/
+
+
+
+
+/*Footer*/
+footer {
+	background-color: #000;
+	margin-top: -2em;
+	margin-bottom: 0px;
+	padding-bottom: 1px;
+    text-align: center;
+}
+
+footer p {
+	color: #FFF;
+	font-family: "Goudy Old Style Bold", Goudy Old Style, sans-serif;
+	font-size: 17px;
+	font-weight: 100;
+	padding-top: 15px;
+	padding-left: 10px;
+}
+/*footer*/
+
+/* Mobile Styles */
+
+@media screen and (max-width: 800px) {
+    #navigation {
+        display: none;
+    }
+    .hamburger-icon {
+        display: block;
+    }
+    .mobile-navigation {
+        display: block;
+        list-style: none;
+        padding-right: 1.5em;
+        font-family: "Goudy Old Style Bold", Goudy Old Style, sans-serif;
+        font-size: 20px;
+        height: 200px;
+        width: 100vw;
+        background-color: #242424;
+        position: absolute;
+        top: 0;
+        right: 0;
+        text-align: center;
+        z-index: 20;
+        transform: translateY(-200px);
+        transition: 500ms;
+    }
+    .mobile-navigation li {
+        list-style: none;
+        padding: 10px;
+    }
+    .mobile-navigation a {
+        color: white;
+        text-decoration: none;
+    }
+}
