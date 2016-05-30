@@ -360,4 +360,7 @@ footer p {
     #photo img {
         width: 45%;
     }
+    #portfolio div:nth-child(4){
+        height: 315px
+    }
 }
