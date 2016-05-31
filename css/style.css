@@ -144,10 +144,11 @@ body {
 
 /*Profile*/
 #profile {
-	margin-top: 1em;
+	margin-top: -3em;
 	text-align: center;
     display: inline-block;
     padding: auto;
+    margin-left: 160px;
 
 }
 /*profile*/
